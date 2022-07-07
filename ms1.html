@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="ms1.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon"
+        href="./assets/png-clipart-blue-arrows-illustration-computer-icons-button-blog-refresh-drawing-miscellaneous-blue-thumbnail.png">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <div id="CaixaPricipal"></div>
+        <div class="headOne">
+            <nav>
+                <h1 id="TituloDoConteudo">Conversor de Moedas</h1>
+            </nav>
+        </div>
+        <p class="Converter">Converter de </p>
+        <select class="real">
+            <option>R$ Real Brasileiro</option>
+        </select>
+
+        <p class="ConverteOne">Converter para</p>
+        <select class="DolarEuro" id="Select-Moedas">
+            <option>$ Dolar Americano</option>
+            <option>€ Euro</option>
+        </select>
+
+        <p class="Value"><b>Valor</b></p>
+        <input class="Resultado" id="input" placeholder="10.000,00" type="number">
+
+
+        <button onclick="" id="Botão">Converter</button>
+
+        <div class="ResultadoDaConversão"></div>
+        <div class="ResultadoDaConverãoOne">
+            <img class="Brasil" src="./assets/Brasil.png">
+            <p class="RealResultado">Real</p>
+            <p class="ResultadoBr" id="Input-Reais">R$ 10.000,00</p>
+
+            <img class="Seta" src="./assets/Vector.png">
+
+            <img Class="BandeiraEua" src="./assets/Estados Unidos.png" id="bandeira-moedas">
+            <p class="DolarResultado" id="texto-moedas">Dolar Americano</p>
+            <p class="ResultadoDolar" id="Input-Moedas"><b>$ 2.000,00</b></p>
+        </div>
+    </div>
+    <script src="./ms1.js"></script>
+</body>
+
+</html>

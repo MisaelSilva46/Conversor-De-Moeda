@@ -1,0 +1,270 @@
+#CaixaPricipal{
+    width: 326.9px;
+    height: 720px;
+    padding: 24px;
+    margin-right: 20px;
+    background: #E5E5E5;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 25px;
+    position: fixed;
+    left: 40%;
+    background-color: rgb(131,58,180);
+    background-color: linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(83,43,89,1) 50%, rgba(15,31,20,1) 100%);
+}
+
+.headOne{
+    position: absolute;
+    width: 375px;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    
+    background: #9657A5;
+}
+
+.Converter{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    left: 24px;
+    top: 79px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+
+    color: #777777;
+}
+
+.real{
+    position: absolute;
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 113px;
+
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+.ConverteOne{
+    position: absolute;
+    width: 93px;
+    height: 18px;
+    left: 24px;
+    top: 175px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #777777;
+
+}
+
+.DolarEuro{
+    position: absolute;
+width: 327px;
+height: 48px;
+left: 24px;
+top: 208px;
+
+background: #FFFFFF;
+border: 1px solid #BBBBBB;
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+
+.Value{
+    position: absolute;
+    width: 34px;
+    height: 18px;
+    left: 24px;
+    top: 270px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+
+    color: #777777;
+}
+
+.Resultado{
+    position: absolute;
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 302px;
+
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+button{
+    position: absolute;
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 374px;
+
+    background: #CDD728;
+    border-radius: 25px;
+}
+
+.ResultadoDaConversão{
+    position: absolute;
+    width: 327px;
+    height: 289px;
+    left: 24px;
+    top: 458px;
+
+    border: 1px solid #9657A5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.ResultadoDaConversãoOne{
+    position: absolute;
+    width: 125px;
+    height: 251px;
+    left: 125px;
+    top: 470px;
+}
+
+.Brasil{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 164px;
+    top: 470px;
+    background: url(./assets/Brasil.png);
+}
+
+.RealResultado{
+    position: absolute;
+    width: 28px;
+    height: 18px;
+    left: 171px;
+    top: 518px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+
+    color: #777777;
+}
+
+.ResultadoBr{
+    position: absolute;
+    width: 121px;
+    height: 18px;
+    left: 140px;
+    top: 538px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    /* identical to box height, or 90% */
+
+    display: flex;
+    align-items: center;
+
+    color: #555555;
+}
+
+.Seta{
+    position: absolute;
+    left: 42.0%;
+    right: 40.87%;
+    top: 75.54%;
+    bottom: 18.95%;
+    background: url(./assets/Vector.png) ;
+}
+
+.BandeiraEua{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 163px;
+    top: 634px;
+
+    background: url(./assets/Estados\ Unidos.png);
+}
+
+.DolarResultado{
+    position: absolute;
+    width: 105px;
+    height: 18px;
+    left: 136px;
+    top: 682px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+
+    color: #777777;
+}
+
+.ResultadoDolar{
+    position: absolute;
+    width: 122px;
+    height: 18px;
+    left: 138px;
+    top: 703px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    /* identical to box height, or 90% */
+
+    display: flex;
+    align-items: center;
+
+    color: #555555;
+}
